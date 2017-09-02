@@ -1,20 +1,21 @@
 include<stdio.h>
 void main()
 {
-int num=1,i,sum,n=200
-for(num = 1;num<=n;num++)
+int a=1,m,sum,n=200
+for(a=1;a<=n;a++)
 {
 sum = 0;
-for(i=2;i<=num/2;i++)
+for(m=2;m<=a/2;i++)
 {
-if(num%i==0)
+if(a%m==0)
 {
 sum++;
 break;
 }
 }
-if(sum==0 && num!= 1)
-printf("%d ",num);
+if(sum==0 && a!= 1)
+{
+printf("%d ",a);
 }
-return 0;
+}
 }
