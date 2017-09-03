@@ -8,7 +8,7 @@ printf("enter the string");
 scanf("%[^\n]a",a);
 for (i = 0;a[i] != '\0';i++)
 {
-if (s[i] ==' ')
+if (a[i] ==' ')
 sum++;    
 }
 printf("number of words are: %d\n", sum+1);
