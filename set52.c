@@ -13,5 +13,5 @@ printf("a>b");
 else if (a[i] < b[i])
 printf("a < b");
 else
-printf("str1 = str2");
+printf("a = b");
 }
